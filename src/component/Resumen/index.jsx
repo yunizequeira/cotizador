@@ -42,7 +42,7 @@ const Resumen = ({ resultado }) => {
             <p className="font-bold text-lg capitalize">
               Plan:{" "}
               <span className="text-base font-semibold">
-                {getPlan(resultado.datos.marca)}
+                {getPlan(resultado.datos.plan)}
               </span>
             </p>
             <p className="font-bold text-lg capitalize">
